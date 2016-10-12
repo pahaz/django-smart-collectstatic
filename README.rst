@@ -1,6 +1,4 @@
-|version|
-
-|pyversions| |license|
+|version|  |pyversions| |license|
 
 **Author**: `Pahaz Blinov`_
 
@@ -37,6 +35,8 @@ For installing from source, clone the
 
 If you don`t have **pip** you can `install it <https://pip.pypa.io/en/stable/installing/#installation>`_
 
+Add `'smartcollectstatic'` to `INSTALLED_APPS`.
+
 Typical use case
 ================
 
@@ -45,9 +45,15 @@ I use it inside a Docker container. For callectiong Django static.
 Dockerfile::
 
     ...
-    RUN python3 manage.py smartcollectstatic --noinput --link
+    RUN python manage.py smartcollectstatic --noinput --link
     ...
 
+Check actions
+=============
+
+If you want to see the result::
+
+     python manage.py smartcollectstatic -nl --noinput
 
 .. _Pahaz Blinov: https://github.com/pahaz/
 .. _django-smart-collectstatic: https://pypi.python.org/pypi/django-smart-collectstatic
