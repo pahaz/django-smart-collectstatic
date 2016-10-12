@@ -9,7 +9,7 @@ import re
 from os import path
 from codecs import open  # To use a consistent encoding
 
-from setuptools import setup  # Always prefer setuptools over distutils
+from setuptools import setup, find_packages  # Always prefer setuptools over distutils
 
 here = path.abspath(path.dirname(__file__))
 name = 'django-smart-collectstatic'
