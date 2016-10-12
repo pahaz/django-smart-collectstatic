@@ -53,7 +53,15 @@ Check actions
 
 If you want to see the result::
 
-     python manage.py smartcollectstatic -nl --noinput
+     $ python manage.py smartcollectstatic -nl --noinput
+     Pretending to copy '/Users/pahaz/.virtualenvs/proctoring/lib/python3.5/site-packages/easy_select2/static/easy_select2/vendor/select2/js/i18n/vi.js'
+     Pretending to copy '/Users/pahaz/.virtualenvs/proctoring/lib/python3.5/site-packages/easy_select2/static/easy_select2/vendor/select2/js/i18n/zh-CN.js'
+     Pretending to copy '/Users/pahaz/.virtualenvs/proctoring/lib/python3.5/site-packages/easy_select2/static/easy_select2/vendor/select2/js/i18n/zh-TW.js'
+     Pretending to link '/Users/pahaz/PycharmProjects/infrastructure/docks.local/proctoring/rrealtime/static/xxx/chat.html'
+     Pretending to link '/Users/pahaz/PycharmProjects/infrastructure/docks.local/proctoring/rrealtime/static/xxx/package.json'
+     Pretending to link '/Users/pahaz/PycharmProjects/infrastructure/docks.local/proctoring/rrealtime/static/xxx/time.js'
+     Pretending to link '/Users/pahaz/PycharmProjects/infrastructure/docks.local/proctoring/rrealtime/static/xxx/time.min.js'
+
 
 .. _Pahaz Blinov: https://github.com/pahaz/
 .. _django-smart-collectstatic: https://pypi.python.org/pypi/django-smart-collectstatic
