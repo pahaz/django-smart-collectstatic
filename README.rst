@@ -33,9 +33,9 @@ For installing from source, clone the
 
     python setup.py install
 
-If you don`t have **pip** you can `install it <https://pip.pypa.io/en/stable/installing/#installation>`_
+If you don\`t have **pip** you can `install it <https://pip.pypa.io/en/stable/installing/#installation>`_
 
-Add `'smartcollectstatic'` to `INSTALLED_APPS`.
+Add **'smartcollectstatic'** to `INSTALLED_APPS`.
 
 Typical use case
 ================
